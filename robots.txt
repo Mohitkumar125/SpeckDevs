@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://mohitkumar125.github.io/SpeckDevs/sitemap.xml
