@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Fontawesome Link-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="select.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <title>Contact | SpeckDevs - IT Service & Solution</title>
+</head>
+
+<body>
+    <div id="toast">
+        <div id="img">&#128077;</div>
+        <div id="desc">Submitted successfully 🎉!!</div>
+    </div>
+    <div class="header">
+        <div class="progress-bar" id="progressBar"></div>
+    </div>
+    <div class="smallMenu" id="menu">
+        <i class="fa-solid fa-xmark" id="close"></i>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="service.html">Services</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+        </ul>
+        <button onclick="window.location.href='contact.html';">Get a Quote</button>
+    </div>
+    <header class="nav">
+        <div class="left">
+            <img src="images/logo.png" alt="" loading="lazy">
+        </div>
+        <div class="right">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html" >About</a></li>
+                <li><a href="service.html" >Services</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+            </ul>
+            <button onclick="window.location.href='contact.html';" >Get a Quote</button>
+            <i class="fa-solid fa-bars" id="open"></i>
+        </div>
+    </header>
+    <section class="amain">
+        <div class="title">
+            <h1>Contact us</h1>
+            <p><a href="index.html">Home </a>/ Contact us</p>
+        </div>
+    </section>
+    <section class="contactp">
+        <div class="chead">
+            <div class="left">
+                <img src="images/24hours.png" alt="">
+                <h1>We'll responed to you<br/> an hour</h1>
+            </div>
+            <div class="right">
+                <p>We'll respond to you in en hour. We prioritize your time and undenstend the importance of a quick response. Our dedicated team is here to answer your questions and address your needs promptly in the meantime, feel free to browse our website or explore our service offarings!</p>
+            </div>
+        </div>
+    </section>
+    <section class="contact">
+        <div class="heading">
+            <div class="line"></div>
+            <div class="dot"></div>
+            <h3>Let's Get Started Today</h3>
+        </div>
+        <div class="container">
+            <form action="" id="contactForm">
+                <input type="hidden" name="access_key" value="09bdd7cf-bed6-4479-917e-ddec1c0ace9f">
+                <div class="row">
+                    <input type="text" id="firstname" name="firstname" placeholder="First Name">
+                    <input type="text" id="lastname" name="lastname" placeholder="Last Name">
+                </div>
+                <div class="row">
+                    <input type="number" id="number" name="number" placeholder="Your Number">
+                    <input type="email" id="email" name="email" placeholder="Your email">
+                </div>
+                <div class="row">
+                    <input type="text" id="businessname" name="businessname" placeholder="Business Name">
+                    <div class="custom-select">
+                        <select name="service" id="service">
+                            <option value="website Development">Website Development</option>
+                            <option value="UI / UX">UI / UX</option>
+                            <option value="Digital Marketing">Digital MArketing</option>
+                            <option value="Graphic Designing">Graphic Designing</option>
+                            <option value="App Development">App Development</option>
+                            <option value="Web Maintenance">web Maintenance</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="row">
+                    <textarea name="message" id="message" placeholder="Your Message"></textarea>
+                </div>
+                <div class="row">
+                    <button type="submit" >Send</button>
+                </div>
+            </form>
+        </div>
+    </section>
+    <section class="footer">
+        <div class="note">
+            <img src="images/logo.png" alt="">
+            <p>Grow your business with SpeckDevs! We’re digital marketing alchemists, transforming ideas into increased
+                sales and brand loyalty through strategic marketing, web design, and social media management.</p>
+        </div>
+        <div class="contactf">
+            <h1>Contact Us</h1>
+            <p>+91 8354878095</p>
+            <p>speckdevs@gmail.com</p>
+        </div>
+        <div class="linkf">
+            <h1>Our service</h1>
+            <p onclick="window.location.href='service.html';">Website Development</p>
+            <p onclick="window.location.href='service.html';">UI / UX</p>
+            <p onclick="window.location.href='service.html';">Digital Marketing</p>
+            <p onclick="window.location.href='service.html';">Graphic Designing</p>
+            <p onclick="window.location.href='service.html';">App Development</p>
+            <p onclick="window.location.href='service.html';">Web Maintenance</p>
+        </div>
+        <div class="follow">
+            <h1>Follow us</h1>
+            <div class="icon">
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-x-twitter"></i>
+                <i class="fa-brands fa-linkedin"></i>
+                <i class="fa-brands fa-youtube"></i>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="copy">
+            <p>&copy;
+                <script>document.write(new Date().getFullYear())</script> <a href="index.html">SpeckDevs.</a>All rights
+                reserved.
+            </p>
+
+        </div>
+        
+    </footer>
+</body>
+<script src="select.js"></script>
+<script src="header.js"></script>
+<script src="price.js"></script>
+<script src="contact.js"></script>
+</html>

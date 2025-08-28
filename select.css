@@ -1,0 +1,53 @@
+.custom-select {
+    position: relative;
+    width: calc(100% / 2 - 20px);
+    height: 50px;
+    background: none;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid #FF5B5B;
+    color: #FF5B5B;
+    font-size: 20px;
+}
+@media screen and (max-width: 480px) {
+    .custom-select {
+      width: 100%;
+    }
+  }
+.custom-select select {
+    display: none;
+    /*hide original SELECT element:*/
+}
+
+/*style the arrow inside the select element:*/
+.select-selected:after {
+    position: absolute;
+    content: "";
+    top: 14px;
+    right: 10px;
+    width: 0;
+    height: 0;
+    border: none;
+}
+/*style the items (options), including the selected item:*/
+.select-items div,
+.select-selected {
+    color: #FF5B5B;
+    padding: 8px 16px;
+    cursor: pointer;
+    user-select: none;
+}
+/*style items (options):*/
+.select-items {
+    position: absolute;
+    background-color: #FFFFFF;
+    top: 100%;
+    left: 0;
+    right: 0;
+    z-index: 99;
+    box-shadow: 0 0 10px #3DAA88;
+}
+/*hide the items when the select box is closed:*/
+.select-hide {
+    display: none;
+}

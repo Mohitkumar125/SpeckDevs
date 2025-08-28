@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Fontawesome Link-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="select.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <title>Portfolio | SpeckDevs - IT Service & Solution</title>
+  </head>
+
+  <body>
+    <div class="header">
+      <div class="progress-bar" id="progressBar"></div>
+    </div>
+    <div class="smallMenu" id="menu">
+      <i class="fa-solid fa-xmark" id="close"></i>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="service.html" class="active">Services</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+      </ul>
+      <button onclick="window.location.href='contact.html';">
+        Get a Quote
+      </button>
+    </div>
+    <header class="nav">
+      <div class="left">
+        <img src="images/logo.png" alt="" loading="lazy" />
+      </div>
+      <div class="right">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="service.html">Services</a></li>
+          <li><a href="portfolio.html" class="active">Portfolio</a></li>
+        </ul>
+        <button onclick="window.location.href='contact.html';">
+          Get a Quote
+        </button>
+        <i class="fa-solid fa-bars" id="open"></i>
+      </div>
+    </header>
+    <section class="amain">
+      <div class="title">
+        <h1>Portfolio</h1>
+        <p><a href="index.html">Home </a>/ Portfolio</p>
+      </div>
+    </section>
+    <section class="portfolio">
+      <div class="imgs">
+        <div class="img">
+          <a href="https://mohitkumar125.github.io/pizzashopwebsite/index.html" target="_blank"><img src="images/folio-3.jpg" alt="" /></a>
+        </div>
+        <div class="img">
+            <a href="https://mohitkumar125.github.io/realestateproject001" target="_blank"><img src="images/realestate.jpg" alt="" /></a>
+        </div>
+        <div class="img">
+            <a href="https://helloguys001.infinityfreeapp.com/" target="_blank"><img src="images/chat.jpg" alt="" /></a>
+        </div>
+        <div class="img">
+            <a href="https://mohitkumar125.github.io/Leafylingo/"><img src="images/potato.jpg" alt=""></a>
+        </div>
+      </div>
+    </section>
+    <section class="footer">
+      <div class="note">
+        <img src="images/logo.png" alt="" />
+        <p>
+          Grow your business with SpeckDevs! We’re digital marketing alchemists,
+          transforming ideas into increased sales and brand loyalty through
+          strategic marketing, web design, and social media management.
+        </p>
+      </div>
+      <div class="contactf">
+        <h1>Contact Us</h1>
+        <p>+91 8354878095</p>
+        <p>speckdevs@gmail.com</p>
+      </div>
+      <div class="linkf">
+        <h1>Our service</h1>
+        <p onclick="window.location.href='service.html';">
+          Website Development
+        </p>
+        <p onclick="window.location.href='service.html';">UI / UX</p>
+        <p onclick="window.location.href='service.html';">Digital Marketing</p>
+        <p onclick="window.location.href='service.html';">Graphic Designing</p>
+        <p onclick="window.location.href='service.html';">App Development</p>
+        <p onclick="window.location.href='service.html';">Web Maintenance</p>
+      </div>
+      <div class="follow">
+        <h1>Follow us</h1>
+        <div class="icon">
+          <i class="fa-brands fa-instagram"></i>
+          <i class="fa-brands fa-facebook"></i>
+          <i class="fa-brands fa-x-twitter"></i>
+          <i class="fa-brands fa-linkedin"></i>
+          <i class="fa-brands fa-youtube"></i>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="copy">
+        <p>
+          &copy;
+          <script>
+            document.write(new Date().getFullYear());
+          </script>
+          <a href="index.html">SpeckDevs.</a>All rights reserved.
+        </p>
+      </div>
+    </footer>
+  </body>
+  <script src="select.js"></script>
+  <script src="header.js"></script>
+  <script src="price.js"></script>
+</html>
